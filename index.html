@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title> art_cart </title>
+		<link type="text/css" rel="stylesheet" href="css/site.css">
+		<script type="text/javascript" src="js/main.js"></script>
+    </head>
+	
+    <body>
+		<div id="header">art_cart</div>
+		<div id="mainContent">
+				<table border=2 height=100% width=100%>
+					<tr height=20%>
+						<td width=10%"><input type="button" value="OFFERS OF THE DAY" onClick="javascript: toggleContent('offers', 'imagesection');"></td>
+						<td rowspan="5" width=25%>
+							<div id="offers" class="imagesection defaultimagearea"><img src="images/IMG_20210606_090051.jpg" width=100% height=575cm ></div>
+							<div id="sketches" class="imagesection"><img src="images/IMG_20210606_090013.jpg" width=100% height=575cm ></div>
+							<div id="pastel" class="imagesection"><img src="images/IMG_20210606_090051.jpg" width=100% height=575cm ></div>
+							<div id="poster" class="imagesection"><img src="images/IMG_20210606_090325.jpg" width=100% height=575cm ></div>
+							<div id="handcrafts" class="imagesection"><img src="images/IMG20210606085054.jpg" width=100% height=575cm ></div>
+						</td>
+						<td width=10% align="center"> Which shade of life does this creation reflects in your opinion? </td>
+					</tr>
+					<tr height=20%>
+						<td><input type="button" value="SKETCHES" onClick="javascript: toggleContent('sketches', 'imagesection')"></td>
+						<td rowspan="3">
+							<form>
+								<label>Your name:</label><br>
+								<input type="text" ><br><br>
+								<label >Contact Number:</label><br>
+								<input type="number"><br><br>
+								<label >Email id:</label><br>
+								<input type="text"><br><br>
+								<label >Comments:</label><br>
+								<input type="text"><br>
+							</form>
+						</td>		
+					</tr>
+					<tr height=20%>
+						<td><input type="button" value="PASTEL PAINTINGS" onClick="javascript: toggleContent('pastel', 'imagesection')"></td>
+					</tr>
+					<tr height=20%>
+						<td><input type="button" value="POSTER COLOR PAINTINGS" onClick="javascript: toggleContent('poster', 'imagesection')"></td>
+					</tr>
+					<tr height=20%>
+						<td><input type="button" value="HAND-CRAFTS" onClick="javascript: toggleContent('handcrafts', 'imagesection')"></td>
+						<td align="center"><input type="submit" value="Submit"></td>
+					</tr>
+				</table>
+			</div>
+		<div id="footer"><br> Kindly note, these are original creations by Nihira, and are prohibited to copy, use or republish in any native or modified form</div>
+	    </body>
+</html>
